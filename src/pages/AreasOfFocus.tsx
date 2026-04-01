@@ -1,7 +1,7 @@
 const AreaOfFocus = () => {
     return (
         <div>
-            <h1>Area of focus page</h1>
+            <h1>Areas of focus page</h1>
         </div>
     )
 }

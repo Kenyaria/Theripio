@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import AreaOfFocus from "./pages/AreaOfFocus";
+import AreasOfFocus from "./pages/AreasOfFocus";
 import Science from "./pages/Science";
 import News from "./pages/News";
 import Publications from "./pages/Publications";
@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/areaoffocus" element={<AreaOfFocus />} />
+        <Route path="/areasoffocus" element={<AreasOfFocus />} />
         <Route path="/science" element={<Science />} />
         <Route path="/news" element={<News />} />
         <Route path="/publications" element={<Publications />} />

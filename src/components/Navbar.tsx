@@ -1,0 +1,90 @@
+import React, { useState } from "react";
+import { Link } from "react-router";
+import { X, Menu } from "react-feather";
+import logo from "../assets/small_logo.png";
+import "./app.css";
+
+const Navbar = () => {
+    const [isHamburgerOpen, setHamburgerOpen] = useState(false);
+
+    return (
+        <div>
+            <nav 
+                className="absolute z-20 top-0 left-0 w-full p-4 h-24 bg-white text-blue-950">
+                <div 
+                    className="py-2 flex container mx-auto justify-between items-center font-monsterrat">
+                    
+                    {/* Logo */}
+                    <Link
+                        to="/"
+                        className=""
+                    >
+                        <img src={logo} alt="Home" />
+                    </Link>
+
+                    {/* Hamburger Menu*/}
+                    <div
+                        className="block lg:hidden"
+                        onClick={() => setHamburgerOpen(!isHamburgerOpen)}
+                    >
+                        {isHamburgerOpen ? (
+                            <X className="size-14 hover:cursor-pointer hover:text-sky-600"/>
+                        ) : (
+                            <Menu className="size-14 hover:cursor-pointer hover:text-sky-600" />
+                        )}
+                    </div>
+
+                    {/* Normal Menu*/}
+                    <div
+                        className="hidden lg:flex space-x-10 items-center text-xl pr-30"
+                    >
+                        <Link to="/about" className="hover:text-sky-600">
+                            About
+                        </Link>
+                        <Link to="/areasoffocus" className="hover:text-sky-600">
+                            Areas of Focus
+                        </Link>
+                        <Link to="/science" className="hover:text-sky-600">
+                            Science
+                        </Link>
+                        <Link to="/publications" className="hover:text-sky-600">
+                            Publications
+                        </Link>
+                        <Link to="/news" className="hover:text-sky-600">
+                            News
+                        </Link>
+                        <Link to="/contact" className="hover:text-sky-600">
+                            Contact
+                        </Link>
+                    </div>
+                </div>
+            </nav>
+
+            {/* Mobile Menu */}
+            <div
+                className={`mobile-menu absolute z-20 lg:hidden space-y-4 mt-24 py-2 flex flex-col justify-center w-full items-center text-3xl font-bold bg-white text-blue-950 ${
+                    isHamburgerOpen ? "block" : "hidden"}`}
+            >
+                <Link to="/about" className="hover:text-sky-600">
+                    About
+                </Link>
+                <Link to="/areasoffocus" className="hover:text-sky-600">
+                    Areas of Focus
+                </Link>
+                <Link to="/science" className="hover:text-sky-600">
+                    Science
+                </Link>
+                <Link to="/publications" className="hover:text-sky-600">
+                    Publications
+                </Link>
+                <Link to="/news" className="hover:text-sky-600">
+                    News
+                </Link>
+                <Link to="/contact" className="hover:text-sky-600">
+                    Contact
+                </Link>
+            </div>
+        </div>
+    )
+}
+export default Navbar;
