@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div>
             <nav 
-                className="absolute z-20 top-0 left-0 w-full p-4 h-24 bg-white text-blue-950">
+                className="fixed z-100 w-full p-4 h-24 bg-white text-blue-950">
                 <div 
                     className="py-2 flex container mx-auto justify-between items-center font-monsterrat">
                     
@@ -62,7 +62,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div
-                className={`mobile-menu absolute z-20 lg:hidden space-y-4 mt-24 py-2 flex flex-col justify-center w-full items-center text-3xl font-bold bg-white text-blue-950 ${
+                className={`mobile-menu fixed z-100 lg:hidden space-y-4 mt-24 py-2 flex flex-col justify-center w-full items-center text-3xl font-bold bg-white text-blue-950 ${
                     isHamburgerOpen ? "block" : "hidden"}`}
             >
                 <Link to="/about" className="hover:text-sky-600">
