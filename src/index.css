@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-200 text-neutral-600; 
+    @apply bg-slate-100 text-neutral-600; 
   }
 }
 /*
