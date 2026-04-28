@@ -23,7 +23,7 @@ const List = ( {title, data}: Props ) => {
     const hasPagination = data.length > ITEMS_PER_PAGE;
 
     return (
-        <div>
+        <div className="font-inter">
             <Header title={title}></Header>
             {current.map((entry, i) => (
                 <div key={i} className="px-8 md:px-30"> 
