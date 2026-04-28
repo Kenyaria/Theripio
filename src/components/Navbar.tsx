@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div>
             <nav 
-                className="fixed z-100 w-full p-4 h-24 bg-white text-blue-950">
+                className="fixed z-100 w-full p-4 h-24 bg-white text-blue-950 shadow-lg">
                 <div 
                     className="py-2 flex container mx-auto justify-between items-center font-monsterrat">
                     
