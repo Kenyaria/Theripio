@@ -6,6 +6,8 @@ import BodyText from "../components/BodyText";
 import Profile from "../components/Profile";
 import Chris from "../assets/People/Chris.png";
 import Alain from "../assets/People/Alain.png";
+import Shannon from "../assets/People/Shannon.jpg";
+import Testimony from "../assets/People/Testimony.jpg";
 import Kiki from "../assets/People/Kiki.png";
 import MEF2C from "../assets/Partnerships/mef2c_foundation.png";
 import MUSC from "../assets/Partnerships/musc.png";
@@ -27,29 +29,41 @@ const About = () => {
             />
             
             <Header title="Our History"/>
-            <BodyText text= "The Pathways to Hope Research Initiative was originally conceptualized by our founder, Dr. Christopher Cowan. This initiative was graciously supported with seed funding approaching $1 million dollars from a variety of sources including the Rare Bird Foundation and the Qatar Embassy in Washington, D.C."/>
+            <BodyText text="The Pathways to Hope Research Initiative was originally conceptualized by our founder, Dr. Christopher Cowan. This initiative was graciously supported with seed funding approaching $1 million dollars from a variety of sources including the Rare Bird Foundation and the Qatar Embassy in Washington, D.C."/>
             <br />
             <BodyText text="Patent protection for our novel therapeutic strategies were filed in 2025 at which time Theripio Innovations, LLC was founded. Ongoing research and development has been supported by Phase 2 seed funding from the aforementioned foundations, as well as the MUSC IDEA Grant and [CWC-TSB award]"/>
 
             <Header title="Meet the Team"/>
             <div className="flex justify-center gap-10 md:gap-30 py-10 flex-wrap">
                 <Profile 
-                    src= {Chris}
+                    src={Chris}
                     alt="Portrait of Dr. Christopher Cowan"
                     id="Christopher Cowan, PhD"
                     description= "Founder and Owner"
                 />
                 <Profile 
-                    src = {Alain}
+                    src={Alain}
                     alt= "Portrait of Alain Greige"
                     id= "Alain Greige, MD/PhD Candidate"
                     description ="Co-Founder and CSO"
                 />
                 <Profile 
-                    src = {Kiki}
-                    alt = "Portrait of Dr. Kenyaria Noble"
-                    id = "Kenyaria Noble, PhD"
-                    description = "Senior Scientist and COO"
+                    src={Kiki}
+                    alt="Portrait of Dr. Kenyaria Noble"
+                    id="Kenyaria Noble, PhD"
+                    description="Senior Scientist and COO"
+                />
+                <Profile 
+                    src={Shannon}
+                    alt="Portrait of Shannon Greene"
+                    id="Shannon Greene, M.S."
+                    description="Research Specialist"
+                />
+                <Profile
+                    src={Testimony}
+                    alt="Portait of Testimony Ajibade"
+                    id="Testimony Ajibade, M.S."
+                    description="PhD Candidate and Lead Scientist"
                 />
             </div>
 
