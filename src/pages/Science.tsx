@@ -53,7 +53,7 @@ const Science = () => {
                 />
             </div>
 
-            <div className="bg-sky-600 my-20 pb-20">
+            <div className="bg-sky-500 my-20 pb-20">
                 <Header title="Model Systems"/>
                 <div className="bg-gray-200 mx-10 md:mx-30 rounded-xl mb-20">
                     <Header title="Animal Models"/>

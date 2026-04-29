@@ -19,6 +19,7 @@ const AreaOfFocus = () => {
             <h1 className="text-center text-slate-700 text-lg md:text-2xl font-bold px-8 md:px-30 pb-20">
                 Targeting MEF2C Haploinsufficiency Syndrome and Age-Related Cognitive Decline through biology-driven therapeutic innovation.
             </h1>
+            
             <div className="bg-white mx-10 md:mx-30 rounded-xl pb-15">
                 <Header title="MEF2C Haploinsufficiency Syndrome"/>
                 <BodyText text="This severe monogenic neurodevelopmental disorder has been associated with mutations (in the form of deletions or point variants) in the MEF2C gene located at chromosome 5q14.3. 
