@@ -24,18 +24,13 @@ const Contact = () => {
                 className="mb-15 mx-10 md:mx-30 rounded-2xl bg-sky-500 px-10 py-10"
             >
                 <h3 className="font-bold font-montserrat text-blue-950 text-md md:text-lg">
-                    Phone:
-                </h3>
-                <h4 className="font-inter text-white text-md md:text-lg pb-5">
-                    Coming Soon
-                </h4>
-
-                <h3 className="font-bold font-montserrat text-blue-950 text-md md:text-lg">
                     Email:
                 </h3>
-                <h4 className="font-inter text-white text-md md:text-lg">
-                    Coming soon
-                </h4>
+                <a href="mailto:theripioinno@gmail.com">
+                    <h4 className="font-inter text-white text-md md:text-lg hover:text-blue-700">
+                        theripioinno@gmail.com
+                    </h4>
+                </a>
             </div>
             <Footer />
         </div>
