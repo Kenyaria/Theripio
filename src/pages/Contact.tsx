@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import MUSC from "../assets/Banners/MUSC.jpg";
+import Footer from "../components/Footer";
 
 const Contact = () => {
     return (
@@ -36,6 +37,7 @@ const Contact = () => {
                     Coming soon
                 </h4>
             </div>
+            <Footer />
         </div>
     )
 }

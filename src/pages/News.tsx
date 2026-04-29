@@ -4,6 +4,7 @@ import Newspaper from "../assets/Banners/newspaper.jpg";
 import List from "../components/List";
 import PressRelease from "../data/PressRelease";
 import Podcast from "../data/Podcast";
+import Footer from "../components/Footer";
 
 const News = () => {
     return (
@@ -22,6 +23,7 @@ const News = () => {
                 title="Podcast"
                 data= {Podcast}
             />
+            <Footer />
         </div>
     )
 }

@@ -14,6 +14,7 @@ import RareBird from "../assets/Partnerships/rare_bird.png";
 import ViralGen from "../assets/Partnerships/viralgen.png";
 import WeillCornell from "../assets/Partnerships/weill_cornell.png";
 import Zucker from "../assets/Partnerships/zucker.png";
+import Footer from "../components/Footer";
 
 const About = () => {
     return (
@@ -128,6 +129,7 @@ const About = () => {
                     </img>
                 </a>
             </div>
+            <Footer />
         </div>
     )
 }

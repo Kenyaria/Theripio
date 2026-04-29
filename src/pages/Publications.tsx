@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Computer from "../assets/Banners/computer.jpg";
 import List from "../components/List";
 import PublicationData from "../data/PublicationData";
+import Footer from "../components/Footer";
 
 const Publications = () => {
     return (
@@ -17,6 +18,7 @@ const Publications = () => {
                 title="Publications"
                 data = {PublicationData}
                 />
+            <Footer />
         </div>
     )
 }

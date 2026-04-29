@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import BodyText from "../components/BodyText";
 import Fig1 from "../assets/Figures/graph.png";
 import Fig2 from "../assets/Figures/age_related_cognitive_decline.png";
+import Footer from "../components/Footer";
 
 const AreaOfFocus = () => {
     return (
@@ -63,6 +64,7 @@ const AreaOfFocus = () => {
                 >
                 </img>
             </div>
+            <Footer />
         </div>
     )
 }

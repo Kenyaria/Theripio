@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import BodyText from "../components/BodyText";
 import WidgetButton from "../components/WidgetButton";
 import Microscope from "../assets/banners/microscope2.jpg";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
@@ -37,6 +38,7 @@ const Home = () => {
                 body="News and updates advancing research and advocacy in MEF2C Haploinsufficiency Syndrome."
                 address="/news"
             />
+            <Footer />
         </div>
     )
 }

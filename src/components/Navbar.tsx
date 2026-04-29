@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router";
 import { X, Menu } from "react-feather";
 import logo from "../assets/small_logo.png";
@@ -10,16 +10,15 @@ const Navbar = () => {
     return (
         <div>
             <nav 
-                className="fixed z-100 w-full p-4 h-24 bg-white text-blue-950 shadow-lg">
+                className="fixed z-100 w-full px-10 py-4 h-24 bg-white text-blue-950 shadow-lg">
                 <div 
                     className="py-2 flex container mx-auto justify-between items-center font-monsterrat">
                     
                     {/* Logo */}
                     <Link
                         to="/"
-                        className=""
                     >
-                        <img src={logo} alt="Home" />
+                        <img src={logo} alt="Theripio logo" />
                     </Link>
 
                     {/* Hamburger Menu*/}
