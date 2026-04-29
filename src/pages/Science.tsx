@@ -8,6 +8,7 @@ import Fig1 from "../assets/Figures/modified_nucleic_acid.png";
 import Fig2 from "../assets/Figures/recombinant_virus.png";
 import Fig3 from "../assets/Figures/animal_model.png";
 import Fig4 from "../assets/Figures/patient_derived_cell_lines.png";
+import Footer from "../components/Footer";
 
 const Science = () => {
     return (
@@ -85,6 +86,7 @@ const Science = () => {
                     </img>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
