@@ -10,7 +10,7 @@ type Props = {
 
 const WidgetButton = ( { title, body, address }: Props) => {
     return (
-        <div className="bg-white mb-15 mx-30 rounded-2xl">
+        <div className="bg-white mb-15 mx-10 md:mx-30 rounded-2xl">
             <Header title={title}></Header>
             <BodyText text={body}></BodyText>
             <div className="flex justify-end py-5 px-10 px md:py-8 md:px-30">

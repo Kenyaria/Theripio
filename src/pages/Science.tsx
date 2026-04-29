@@ -19,7 +19,7 @@ const Science = () => {
                 height="h-[80dvh]"
             />
             <div>
-            <Header title="Our Therapeautic Technologies"></Header>
+            <Header title="Our Therapeutic Technologies"></Header>
             <h1 className="text-center text-slate-700 text-lg md:text-2xl font-bold">A platform of advanced technologies engineered to enable precise, gene-targeted therapeutics.</h1>
             </div>
             <div>
@@ -55,7 +55,7 @@ const Science = () => {
 
             <div className="bg-sky-500 my-20 pb-20">
                 <Header title="Model Systems"/>
-                <div className="bg-gray-200 mx-10 md:mx-30 rounded-xl mb-20">
+                <div className="bg-white mx-10 md:mx-30 rounded-xl mb-20">
                     <Header title="Animal Models"/>
                     <BodyText
                         text="Transgenic animal models are a cornerstone of preclinical research, enabling scientists to study disease mechanisms and evaluate potential therapies in a controlled, biologically relevant context. 
@@ -70,7 +70,7 @@ const Science = () => {
                     </img>
                 </div>
 
-                <div className="bg-gray-200 mx-10 md:mx-30 rounded-xl pb-15">
+                <div className="bg-white mx-10 md:mx-30 rounded-xl pb-15">
                     <Header title="Patient Derived Cell Lines"/>
                     <BodyText
                         text="Patient-derived stem cells are a powerful tool in preclinical research, enabling the study of human disease biology in a highly relevant cellular context. 
