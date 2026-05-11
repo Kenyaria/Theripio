@@ -34,7 +34,7 @@ const About = () => {
             <BodyText text="Patent protection for our novel therapeutic strategies were filed in 2025 at which time Theripio Innovations, LLC was founded. Ongoing research and development has been supported by Phase 2 seed funding from the aforementioned foundations, as well as the MUSC IDEA Grant and [CWC-TSB award]"/>
 
             <Header title="Meet the Team"/>
-            <div className="flex justify-center gap-10 md:gap-30 py-10 flex-wrap">
+            <div className="flex justify-center gap-10 md:gap-30 py-10 flex-wrap px-10">
                 <Profile 
                     src={Chris}
                     alt="Portrait of Dr. Christopher Cowan"
@@ -63,7 +63,7 @@ const About = () => {
                     src={Testimony}
                     alt="Portait of Testimony Ajibade"
                     id="Testimony Ajibade, M.S."
-                    description="PhD Candidate and Lead Scientist"
+                    description="Graduate Student (Cowan Lab)"
                 />
             </div>
 

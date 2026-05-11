@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import { X, Menu } from "react-feather";
-import logo from "../assets/small_logo.png";
+import logo from "../assets/logo_cropped.png";
 import "./app.css";
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <Link
                         to="/"
                     >
-                        <img src={logo} alt="Theripio logo" />
+                        <img className="h-14" src={logo} alt="Theripio logo" />
                     </Link>
 
                     {/* Hamburger Menu*/}
@@ -35,7 +35,7 @@ const Navbar = () => {
 
                     {/* Normal Menu*/}
                     <div
-                        className="hidden lg:flex space-x-10 items-center text-xl pr-30"
+                        className="hidden lg:flex space-x-10 items-center text-2xl pr-30"
                     >
                         <Link to="/about" className="hover:text-sky-600">
                             About

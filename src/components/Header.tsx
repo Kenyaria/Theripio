@@ -5,7 +5,7 @@ type Props = {
 const Header = ({ title }: Props) => {
     return (
         <div className="p-8 md:py-15 md:px-30">
-            <h1 className="font-bold font-montserrat text-blue-950 text-lg md:text-xl lg:text-4xl">
+            <h1 className="font-bold font-montserrat text-blue-950 text-lg md:text-4xl lg:text-5xl">
                 {title}
             </h1>
         </div>

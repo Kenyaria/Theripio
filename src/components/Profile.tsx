@@ -7,15 +7,15 @@ type Props = {
 
 const Profile = ({src, alt, id, description}: Props) => {
     return (
-        <div className="flex flex-col gap-5 justify-center text-center">
+        <div className="flex flex-col gap-5 justify-center items-center text-center">
             <img
-                className="rounded-full h-64"
+                className="rounded-full h-64 w-64"
                 src= {src}
                 alt= {alt}
             >
             </img>
-            <h3 className="font-bold text-blue-950 font-montserrat text-lg">{id}</h3>
-            <p className="text-slate-500 font-inter">{description}</p>
+            <h3 className="font-bold text-blue-950 font-montserrat text-xl">{id}</h3>
+            <p className="text-slate-500 font-inter text-lg">{description}</p>
         </div>
     )
 }

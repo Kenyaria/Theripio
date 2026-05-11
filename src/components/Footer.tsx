@@ -3,17 +3,17 @@ import { Link } from "react-router";
 
 const Footer = () => {
     return (
-        <div className="h-24 w-full bg-sky-500 flex gap-10 py-5 px-5 md:px-10">
+        <div className="shadow-lg h-24 w-full bg-white flex gap-10 py-5 px-5 md:px-10">
             <Link to="/">
                 <img
-                    className="h-12"
+                    className="h-14"
                     src={logo}
                     alt="Theripio logo"
                 >
                 </img>
             </Link>
             <h3
-                className="text-white flex-grow text-center font-inter text-xs md:text-lg"
+                className="text-blue-950 flex-grow text-center font-inter text-xs md:text-lg"
             >
                 ©2026 Theripio Innovations LLC - All rights reserved.
             </h3>

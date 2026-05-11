@@ -8,11 +8,6 @@ const PublicationData: ListItem[] = [
     },
     {
         date: "May 2024",
-        title: "Author Correction: MEF2C regulates NK cell effector functions through control of lipid metabolism",
-        link: "https://pubmed.ncbi.nlm.nih.gov/38641722/"
-    },
-    {
-        date: "May 2024",
         title: "MEF2C regulates NK cell effector functions through control of lipid metabolism ",
         link: "https://pubmed.ncbi.nlm.nih.gov/38589619/",
     },

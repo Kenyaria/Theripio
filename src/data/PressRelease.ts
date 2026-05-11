@@ -2,6 +2,11 @@ import type { ListItem } from "./ListItem";
 
 const PressRelease: ListItem[] = [
     {
+        date: "April 22, 2026",
+        title: "MUSC researchers hope to develop autism treatment",
+        link: "https://www.musc.edu/content-hub/News/2026/04/22/autism-research"
+    },
+    {
         date: "February 7, 2026",
         title: "MEF2C Foundation & MUSC Launch Program to Develop MEF2C Therapeutics",
         link: "https://www.mef2cfoundation.com/news/mef2c-foundation-amp-musc-launch-program-to-develop-mef2c-therapeuticsnbsp",
