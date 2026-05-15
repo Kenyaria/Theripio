@@ -37,6 +37,11 @@ const PublicationData: ListItem[] = [
         link: "https://pubmed.ncbi.nlm.nih.gov/32418612/"
     },
     {
+        date: "December 2019",
+        title: "Emerging roles for MEF2 in brain development and mental disorders ",
+        link: "https://pubmed.ncbi.nlm.nih.gov/31129473/"
+    },
+    {
         date: "October 25, 2016",
         title: "MEF2C regulates cortical inhibitory and excitatory synapses and behaviors relevant to neurodevelopmental disorders",
         link: "https://pubmed.ncbi.nlm.nih.gov/27779093/"
