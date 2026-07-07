@@ -5,7 +5,7 @@ import logo from "../assets/logo_cropped.png";
 import "./app.css";
 
 const Navbar = () => {
-    const [isHamburgerOpen, setHamburgerOpen] = useState(false);
+    // const [isHamburgerOpen, setHamburgerOpen] = useState(false);
 
     return (
         <div>
@@ -21,7 +21,7 @@ const Navbar = () => {
                         <img className="h-14" src={logo} alt="Theripio logo" />
                     </Link>
 
-                    {/* Hamburger Menu*/}
+                    {/*
                     <div
                         className="block lg:hidden"
                         onClick={() => setHamburgerOpen(!isHamburgerOpen)}
@@ -32,11 +32,13 @@ const Navbar = () => {
                             <Menu className="size-14 hover:cursor-pointer hover:text-sky-600" />
                         )}
                     </div>
+                    */}
 
                     {/* Normal Menu*/}
                     <div
                         className="hidden lg:flex space-x-10 items-center text-2xl pr-30"
                     >
+                        {/*
                         <Link to="/about" className="hover:text-sky-600">
                             About
                         </Link>
@@ -55,11 +57,12 @@ const Navbar = () => {
                         <Link to="/contact" className="hover:text-sky-600">
                             Contact
                         </Link>
+                        */}
                     </div>
                 </div>
             </nav>
 
-            {/* Mobile Menu */}
+            {/*
             <div
                 className={`mobile-menu fixed z-100 lg:hidden space-y-4 mt-24 py-2 flex flex-col justify-center w-full items-center text-3xl font-bold bg-white text-blue-950 ${
                     isHamburgerOpen ? "block" : "hidden"}`}
@@ -83,6 +86,7 @@ const Navbar = () => {
                     Contact
                 </Link>
             </div>
+            */}
         </div>
     )
 }
