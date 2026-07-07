@@ -1,6 +1,6 @@
 import Header from "./Header";
 import BodyText from "./BodyText";
-import { Link } from "react-router";
+//import { Link } from "react-router";
 
 type Props = {
     title: string;
@@ -8,7 +8,8 @@ type Props = {
     address: string;
 }
 
-const WidgetButton = ( { title, body, address }: Props) => {
+// Add address back in later
+const WidgetButton = ( { title, body}: Props) => {
     return (
         <div className="bg-white mb-15 mx-10 md:mx-30 rounded-2xl">
             <Header title={title}></Header>

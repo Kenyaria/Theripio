@@ -1,6 +1,6 @@
-import { useState } from "react";
+//import { useState } from "react";
 import { Link } from "react-router";
-import { X, Menu } from "react-feather";
+//import { X, Menu } from "react-feather";
 import logo from "../assets/logo_cropped.png";
 import "./app.css";
 
