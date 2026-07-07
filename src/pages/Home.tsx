@@ -25,7 +25,7 @@ const Home = () => {
             />
             <WidgetButton
                 title="Our Disease Areas"
-                body="Our work focuses on developing innovative treatments for MEF2C Haploinsufficiency Syndrome (MCHS) and Age-Related Cognitive Decline, with an emphasis on restoring critical gene function."
+                body="Our work focuses on developing innovative treatments for MEF2C Haploinsufficiency Syndrome (MCHS)."
                 address="/areasoffocus"
             />
             <WidgetButton
