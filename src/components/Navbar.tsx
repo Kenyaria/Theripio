@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router";
 import { X, Menu } from "react-feather";
 import logo from "../assets/logo_cropped.png";
-import "./app.css";
+import "./App.css";
 
 const Navbar = () => {
      const [isHamburgerOpen, setHamburgerOpen] = useState(false);

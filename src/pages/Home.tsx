@@ -4,7 +4,7 @@ import BannerText from "../components/BannerText";
 import Header from "../components/Header";
 import BodyText from "../components/BodyText";
 import WidgetButton from "../components/WidgetButton";
-import Microscope from "../assets/banners/microscope2.jpg";
+import Microscope from "../assets/Banners/microscope2.jpg";
 import Footer from "../components/Footer";
 // Remove later
 import TempWidgetButton from "../components/TempWidgetButton";
