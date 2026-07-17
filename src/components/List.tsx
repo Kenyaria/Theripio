@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
-import Header from "./Header";
 import type { ListItem } from "../data/ListItem";
 
 type Props = {
-    title: string;
     data: ListItem[];
 }
 
-const List = ( {title, data}: Props ) => {
+const List = ( {data}: Props ) => {
     const ITEMS_PER_PAGE = 50;
     const [page, setPage] = useState(0);
 
@@ -24,10 +22,9 @@ const List = ( {title, data}: Props ) => {
 
     return (
         <div className="font-inter">
-            <Header title={title}></Header>
             {current.map((entry, i) => (
                 <div key={i} className="px-8 md:px-30"> 
-                    <p className="text-sm md:text-lg pb-4 text-slate-500">{entry.date}</p>
+                    <p className="leading-loose text-sm md:text-lg pb-4 text-slate-500">{entry.date}</p>
                     <a href={entry.link} target="_blank" className="hover:text-sky-600 text-base md:text-2xl">
                     {entry.title}
                     </a>

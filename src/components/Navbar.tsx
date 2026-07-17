@@ -38,10 +38,11 @@ const Navbar = () => {
                     <div
                         className="hidden lg:flex space-x-10 items-center text-2xl pr-30"
                     >
-                        {/*
                         <Link to="/about" className="hover:text-sky-600">
                             About
                         </Link>
+                        {/*
+                        
                         <Link to="/areasoffocus" className="hover:text-sky-600">
                             Areas of Focus
                         </Link>

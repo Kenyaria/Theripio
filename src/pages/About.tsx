@@ -28,10 +28,20 @@ const About = () => {
                 height="h-[80dvh]"
             />
             
-            <Header title="Our History"/>
-            <BodyText text="The Pathways to Hope Research Initiative was originally conceptualized by our founder, Dr. Christopher Cowan. This initiative was graciously supported with seed funding approaching $1 million dollars from a variety of sources including the Rare Bird Foundation and the Qatar Embassy in Washington, D.C."/>
+            <Header title="About Us"/>
+            <BodyText text="Theripio Innovations is led by a multidisciplinary team with decades of pioneering expertise in
+MEF2C biology and extensive experience in RNA therapeutics, gene therapy, translational
+neuroscience, and drug development. Building on this scientific foundation, we collaborate with
+leading clinical and industry experts whose prior work has successfully guided innovative
+therapeutics through clinical development and commercialization at other organizations.
+"/>
             <br />
-            <BodyText text="Patent protection for our novel therapeutic strategies were filed in 2025 at which time Theripio Innovations, LLC was founded. Ongoing research and development has been supported by Phase 2 seed funding from the aforementioned foundations, as well as the MUSC IDEA Grant and [CWC-TSB award]"/>
+            <BodyText text="Together, our complementary scientific, translational, operational, and regulatory expertise
+enables us to efficiently advance our proprietary therapeutic platform from preclinical
+development toward Investigational New Drug (IND) submission and first-in-human clinical
+studies. We are united by a shared mission to develop transformative therapies with the potential
+to address the underlying causes of neurodevelopmental disorders and improve the lives of
+patients and families affected by these devastating conditions."/>
 
             <Header title="Meet the Team"/>
             <div className="flex justify-center gap-10 md:gap-30 py-10 flex-wrap px-10">

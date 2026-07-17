@@ -5,6 +5,7 @@ import List from "../components/List";
 import PressRelease from "../data/PressRelease";
 import Podcast from "../data/Podcast";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const News = () => {
     return (
@@ -15,12 +16,12 @@ const News = () => {
                 alt={"Stack of newspapers"}
                 height="h-[80dvh]"
             />
+            <Header title="Press Release"></Header>
             <List 
-                title="Press Release" 
                 data= {PressRelease}
             />
+            <Header title="Podcast"></Header>
             <List
-                title="Podcast"
                 data= {Podcast}
             />
             <Footer />

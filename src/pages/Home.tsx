@@ -23,7 +23,9 @@ const Home = () => {
                 title="Our Vision"
             />
             <BodyText 
-                text="We exist to change what’s possible for individuals living with rare neurodevelopmental disorders. At Theripio Innovations, we are pioneering targeted therapeutic strategies that go beyond symptom management to address the underlying biology of disease. "
+                text="We exist to change what's possible for individuals living with rare neurodevelopmental
+disorders. At Theripio Innovations, we are researching targeted therapeutic strategies designed,
+in preclinical models, to address the underlying biology of disease rather than symptoms alone."
             />
             {/* Add later */}
             {/*
@@ -41,11 +43,14 @@ const Home = () => {
             {/* Remove later*/}
             <TempWidgetButton
                 title="Our Disease Areas"
-                body="Our work focuses on developing innovative treatments for MEF2C Haploinsufficiency Syndrome (MCHS)."
+                body="Our research focuses on developing investigational treatment candidates for MEF2C
+Haploinsufficiency Syndrome (MCHS)."
             />
             <TempWidgetButton
                 title="Science"
-                body="Discover a curated body of research and publications shaping the therapeutic landscape for MEF2C Haploinsufficiency Syndrome (MCHS) and informing the development of next-generation treatments."
+                body="Discover a curated body of research and publications shaping the therapeutic landscape for
+MEF2C Haploinsufficiency Syndrome (MCHS) and informing our preclinical research toward
+next-generation treatment candidates."
             />
             <WidgetButton
                 title="News"
